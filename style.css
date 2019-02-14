@@ -1,0 +1,25 @@
+body {
+	background: palevioletred;
+}
+.gallery-container {
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+}
+.gallery-item {
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	font-size: 12px;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	align-items: center;
+}
+.gallery-item img {
+	width: 100%;
+	align-self: end;
+}
